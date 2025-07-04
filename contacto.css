@@ -1,0 +1,47 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+
+}
+
+
+body{
+   background-image: url(../Reason/imgR/logoreason.png);
+   background-position: center top;
+   background-size:cover;
+}
+
+
+
+
+
+.formulario{
+
+   width: 40%;
+   border-radius: 5px;
+   margin: 50px auto;
+   padding: 20px;
+   background-color: transparent;
+   box-shadow: 2px 2px 5px black;
+   text-align: center;
+   
+}
+
+
+#boton{
+   background:rgba(0,0,0,.50);
+   border:none;
+   border-radius:5px;
+   padding:15px 30px;
+   color: white;
+   font-size: 18px;
+   margin: 20px;
+   cursor: pointer;
+   transition:.3s;
+}
+
+#boton:hover{
+   color:black;
+   background:white;
+}

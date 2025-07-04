@@ -1,0 +1,260 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
+/*-------------------- encabezado-------------------*/
+
+body{
+   /* background-image: url(../Reason/imgR/logoreason.png);*/
+   background: #f2f2f2;
+    background-position: center top;
+    background-size:cover;
+    
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    text-shadow: black 2px 2px 5px;
+}
+
+
+
+
+
+header .navegacion{
+    height: 60px;/* la altura de lo gris*/
+    background-color:  #f8dada;
+    display:flex; /*con eso hacer que uno quede de un lado y el menu qued del otro*/
+    justify-content:space-between;
+    align-items:center;
+}
+
+    
+.navegacion a {
+   
+    font-size: 15px;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     background-color:  #f7e7e7bd;
+     color: rgb(66, 66, 66);
+     text-decoration: none;
+     height: 30px;
+     width: 150px;
+     display: inline-block;
+     text-align: center;
+     border-bottom: transparent solid 5px;
+     transition: 0.5s;
+     position: relative;
+     
+ 
+ }
+ 
+ 
+ 
+ .navegacion a:hover{
+     color: black;
+     border-bottom: rgb(204, 152, 184) solid 5px;
+    
+    
+ }
+
+
+
+ /* slogan*/
+
+ .slogan { background-image: url(./imgR/patrones.jpg);
+     display:flex;
+     justify-content:space-between;
+    /* justify-content: center;*/
+   
+     
+ }
+
+ .slogan p{
+     background-color: rgba(255, 255, 255, 0.479);
+    font-family: 'Merriweather', serif;
+    font-size: 35px;
+    letter-spacing: 30px;
+    margin-left: 40%;
+    margin-top: 25px;
+    text-shadow: rgba(43, 43, 43, 0.445) 2px 2px ;
+ }
+
+.d-flex{
+    width: 250px;
+    height: 50px;
+    margin-top: 25px;
+    margin-right: 5%;
+}
+
+.form-control{
+    background-color: #ffffff9c !important;
+}
+
+.btn{
+    
+    background-color: #f3e6e6a8 !important;
+    color: rgb(153, 153, 153) !important;
+    height: 38px;
+    margin: auto auto auto auto;
+}
+
+
+/*options*/
+
+
+.options {
+   display: flex;
+   margin-left: 25%;
+   height: 100px;
+  
+}
+
+.options a{
+    text-decoration: none;
+    font-weight: 100;
+     width: 200px;
+     color: rgb(0, 0, 0);
+     margin-top: 50px;
+}
+
+
+ .options a:hover{
+     font-weight: 600;
+     color: black;
+    border-bottom: rgb(204, 152, 184) solid 5px;
+}
+
+.imagen img{
+    width: 100%;
+}
+
+
+/*WEYS*/
+
+.weys{
+   display: flex;
+    margin-top: 15px;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.753);
+    height: 90px;
+    
+}
+
+
+.weys a{
+    background-color: #ffe7ea;
+    margin-left: 1px;
+    width: 550px;
+    height: 50px;
+    text-align: center;
+    margin-top: 18px;
+    text-decoration: none;
+    color: rgb(53, 53, 53);
+    font-weight: 80;
+}
+
+
+.weys a:hover{
+    font-weight: 600;
+    color: black;
+}
+.weys p{
+    margin-top: 15px;
+}
+
+
+
+
+/*camapaña*/
+
+
+
+.campaña{
+    margin-top: 100px;
+   display: flex;
+   width: 100%;
+}
+
+.famosa{
+   
+    height: 500px;
+    width: 50%;
+    display: flex;
+}
+
+h2{
+    margin-left: 15%;
+    font-family: 'EB Garamond', serif;
+}
+
+.famosa img{
+    height: 410px;
+    width: 335px;
+    margin-left: 15%;
+}
+
+.frases{
+    margin-left: 8%;
+ 
+}
+
+
+.frases p{
+    margin-top: 50px;
+    color: rgb(43, 42, 42);
+    margin-top: 100px;
+    
+}
+
+
+/*footer*/
+
+footer{
+    background: rgba(128, 128, 128, 0.555);
+    display: flex;
+    width: 100%;
+    height: 90px;
+}
+ 
+
+.fab{
+    text-decoration: none;
+    color: white !important;
+}
+
+.redes{
+    height: 40px;
+    margin-top: 10px;
+    width: 43%;
+    
+}
+
+.footer__container-icons{
+    margin-left: 15px;
+    
+}
+
+.datos{ width: 33%;}
+
+.datos p{
+    margin-top: 10px;
+    color: white;
+    font-size: 12px;
+    margin-left: 15px;
+    
+}
+
+.containername{
+   margin-top: 15px;
+    margin-right:0 ;
+    width: 43%;
+    font-size: 12px;
+}
+
+ 
